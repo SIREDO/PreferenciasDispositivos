@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colors">
+        <item >Roig</item>
+        <item >Grog</item>
+        <item >Verd</item>
+    </string-array>
+    <string-array name="codi_colors">
+    <item>Color.RED</item>
+    <item>Color.YELLOW</item>
+    <item>Color.GREEN</item>
+    </string-array>
+    <string-array name="colores">
+        <item >Blanc</item>
+        <item >Negre</item>
+        <item >Blau</item>
+    </string-array>
+    <string-array name="codi_colores">
+        <item>Color.WHITE</item>
+        <item>Color.BLACK</item>
+        <item>Color.BLUE</item>
+    </string-array>
+</resources>

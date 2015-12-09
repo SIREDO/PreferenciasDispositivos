@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="mail"
+        android:title="eMail"
+        android:summary="email"
+        android:dialogTitle="Introduce email"/>
+
+    <ListPreference
+        android:key="opColorFuente"
+        android:title="ColorFuente"
+        android:summary="Color de la Fuente"
+        android:dialogTitle="Selecciona un color"
+        android:entries="@array/colores"
+        android:entryValues="@array/codi_colores"/>
+
+    <ListPreference
+        android:key="opColorFondo"
+        android:title="ColorFondo"
+        android:summary="Color de la Fondo"
+        android:dialogTitle="Selecciona un color"
+        android:entries="@array/colors"
+        android:entryValues="@array/codi_colors"/>
+</PreferenceScreen>
